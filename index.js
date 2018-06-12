@@ -33,11 +33,7 @@ module.exports = {
             }
             test = core.tests[name];
             if (!test) {
-                throw new Error('core.test - cannot find test' + name);
-            }
-
-            if (!test) {
-                throw new Error('core.test - cannot find test' + name);
+                throw new Error('core.test - cannot find test ' + name);
             }
 
             var passed = [];
