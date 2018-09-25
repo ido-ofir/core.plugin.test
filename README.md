@@ -24,6 +24,8 @@ core.tap('core.test', (test, done) => {
     test.name; // 'someTest'
     test.err; // the error if failed
     
+    done(test);
+    
 });
 
 // run the test 
